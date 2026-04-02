@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusive Betting Access | Unlock Now</title>
+    <!-- Modern Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Vanilla CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Razorpay Checkout Script (Ready for integration) -->
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</head>
+<body>
+    <!-- Premium Dark Mode Background Effects -->
+    <div class="background-effects">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+    </div>
+    
+    <main class="container">
+        <!-- Main Offering Section -->
+        <section id="offer-section" class="glass-panel text-center">
+            <div class="badge">Premium Access</div>
+            <h1 class="title">My Personal <span class="highlight">Betting Link</span></h1>
+            <p class="subtitle">Unlock the exact platform I use. Limited spots available.</p>
+            
+            <div class="price-container">
+                <span class="price">₹1</span>
+                <!-- Kept the original price for psychological marketing -->
+                <span class="original-price">₹49</span>
+            </div>
+            
+            <button id="pay-btn" class="primary-btn pulse">
+                <span>Unlock Access Now</span>
+                <div class="loader-ring hidden"></div>
+            </button>
+            <p class="secure-text">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                Secured via Razorpay
+            </p>
+        </section>
+
+        <!-- Hidden Links Section (Revealed after payment) -->
+        <section id="links-section" class="glass-panel text-center hidden" style="opacity: 0; transform: scale(0.95); transition: all 0.4s ease;">
+            <div class="success-icon">✓</div>
+            <h2 class="title" style="font-size: 2rem;">Payment Successful!</h2>
+            <p class="subtitle" style="margin-bottom: 20px; font-size: 0.95rem;">Here is your exclusive access. (These placeholders can be changed to your direct betting link later)</p>
+            
+            <div class="links-grid">
+                <a href="https://google.com" target="_blank" class="link-card">
+                    <img src="https://www.google.com/favicon.ico" alt="Google">
+                    <span>Google</span>
+                </a>
+                <a href="https://youtube.com" target="_blank" class="link-card">
+                    <img src="https://www.youtube.com/s/desktop/17c603b5/img/favicon.ico" alt="YouTube">
+                    <span>YouTube</span>
+                </a>
+                <a href="https://meta.com" target="_blank" class="link-card">
+                    <img src="https://about.meta.com/favicon.ico" alt="Meta">
+                    <span>Meta</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Logistics -->
+    <script src="script.js"></script>
+</body>
+</html>
