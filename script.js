@@ -26,8 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 "key": orderData.key_id, // Dynamically pulled from our backend!
                 "amount": orderData.amount, // 100 paise = 1 INR
                 "currency": orderData.currency,
-                "name": "Premium Betting Access",
-                "description": "Unlock Personal Betting Link",
+                "name": "Premium Analytics Access",
+                "description": "Unlock Personal Analysis Framework",
                 "image": "https://cdn-icons-png.flaticon.com/512/9187/9187588.png", // Generic premium icon
                 "order_id": orderData.id, 
                 "handler": function (response) {
